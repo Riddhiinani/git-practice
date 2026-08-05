@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Riddhi Inani",
+    "email": "riddhi@example.com",
+    "phone": "9876543210",
+    "dob": "2003-05-15",
+    "gender": "Female",
+    "course": "B.Tech",
+    "address": "Pune, Maharashtra"
+  }
+]
