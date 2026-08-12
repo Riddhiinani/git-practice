@@ -25,17 +25,17 @@ if (fs.existsSync("script.js")) {
     passed = false;
 }
 
-if (fs.existsSync("students.json")) {
-    console.log("TC-04: students.json file exists");
+if (fs.existsSync("student.json")) {
+    console.log("TC-04: student.json file exists");
 } else {
-    console.log("TC-04: students.json file does not exist");
+    console.log("TC-04: student.json file does not exist");
     passed = false;
 }
 
 let student;
 
 try {
-    const data = fs.readFileSync("students.json", "utf8");
+    const data = fs.readFileSync("student.json", "utf8");
     student = JSON.parse(data);
     console.log("Student data loaded successfully");
 } catch (error) {
