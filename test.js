@@ -36,7 +36,7 @@ let student;
 
 try {
     const data = fs.readFileSync("student.json", "utf8");
-    student = JSON.parse(data);
+    student = JSON.parse(data)[0];
     console.log("Student data loaded successfully");
 } catch (error) {
     console.log("Error reading student.json");
